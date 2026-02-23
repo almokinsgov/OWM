@@ -1,0 +1,40 @@
+{
+  "version": "owm_playback_index_day_v1",
+  "dayPath": "2026/02/23",
+  "entries": [
+    {
+      "ts": "2026-02-23T23:00:00Z",
+      "framePath": "data/owm_playback/v1/frames/2026/02/23/2300Z",
+      "z": 5,
+      "overlays": [
+        "clouds_cls",
+        "rain_cls"
+      ],
+      "windMode": "basic",
+      "tileSet": {
+        "z": 5,
+        "y": [
+          18,
+          21
+        ],
+        "xSegments": [
+          [
+            28,
+            31
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "stats": {
+        "tilesExpected": 56,
+        "tilesOk": 56,
+        "tilesFailed": 0,
+        "windOk": 9,
+        "windFailed": 0
+      }
+    }
+  ]
+}
