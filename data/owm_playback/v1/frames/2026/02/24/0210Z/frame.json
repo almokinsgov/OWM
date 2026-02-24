@@ -1,0 +1,60 @@
+{
+  "version": "owm_playback_frame_v1",
+  "ts": "2026-02-24T02:10:00Z",
+  "frameId": "0210Z",
+  "dayPath": "2026/02/24",
+  "z": 5,
+  "overlays": [
+    "clouds_cls",
+    "rain_cls"
+  ],
+  "captureArea": {
+    "mode": "latlon",
+    "bounds": {
+      "north": -30.854985335330095,
+      "west": 158.9531750859811,
+      "south": -51.10730894598493,
+      "east": -171.62940026266332
+    },
+    "tilePadding": 0
+  },
+  "tileSet": {
+    "z": 5,
+    "y": [
+      18,
+      21
+    ],
+    "xSegments": [
+      [
+        30,
+        31
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "wind": {
+    "mode": "basic",
+    "bounds": {
+      "south": -51.10730894598493,
+      "north": -30.854985335330095,
+      "west": 158.9531750859811,
+      "east": -171.62940026266332
+    },
+    "grid": {
+      "rows": 3,
+      "cols": 3
+    },
+    "points": 9,
+    "file": "wind.json"
+  },
+  "stats": {
+    "tilesExpected": 24,
+    "tilesOk": 24,
+    "tilesFailed": 0,
+    "windOk": 9,
+    "windFailed": 0
+  }
+}
