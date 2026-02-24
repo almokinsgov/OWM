@@ -1,0 +1,50 @@
+{
+  "version": "owm_playback_frame_v1",
+  "ts": "2026-02-24T00:20:00Z",
+  "frameId": "0020Z",
+  "dayPath": "2026/02/24",
+  "z": 5,
+  "overlays": [
+    "clouds_cls",
+    "rain_cls"
+  ],
+  "tileSet": {
+    "z": 5,
+    "y": [
+      18,
+      21
+    ],
+    "xSegments": [
+      [
+        28,
+        31
+      ],
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "wind": {
+    "mode": "basic",
+    "bounds": {
+      "south": -47.8,
+      "west": 166,
+      "north": -33.5,
+      "east": 179.3
+    },
+    "grid": {
+      "rows": 3,
+      "cols": 3
+    },
+    "points": 9,
+    "file": "wind.json"
+  },
+  "stats": {
+    "tilesExpected": 56,
+    "tilesOk": 56,
+    "tilesFailed": 0,
+    "windOk": 9,
+    "windFailed": 0
+  }
+}
