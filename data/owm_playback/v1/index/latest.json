@@ -34,6 +34,40 @@
         "windOk": 9,
         "windFailed": 0
       }
+    },
+    {
+      "ts": "2026-02-24T00:20:00Z",
+      "framePath": "data/owm_playback/v1/frames/2026/02/24/0020Z",
+      "z": 5,
+      "overlays": [
+        "clouds_cls",
+        "rain_cls"
+      ],
+      "windMode": "basic",
+      "tileSet": {
+        "z": 5,
+        "y": [
+          18,
+          21
+        ],
+        "xSegments": [
+          [
+            28,
+            31
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "stats": {
+        "tilesExpected": 56,
+        "tilesOk": 56,
+        "tilesFailed": 0,
+        "windOk": 9,
+        "windFailed": 0
+      }
     }
   ]
 }
